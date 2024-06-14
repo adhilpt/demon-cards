@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(138, 26, 242, 0.148);
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    position: absolute;
+    height: 300px;
+    width: 230px;
+    border-radius: 15%;
+    border: 2px solid black;
+    overflow: hidden;
+}
+h1{
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+    text-align: center;
+}
+#c1{
+    z-index: 4;
+    rotate: 30deg;
+    background-color: black;
+}
+#c2{
+    z-index: 3;
+    rotate: 20deg;
+}
+#c3{
+    z-index: 2;
+    rotate: 10deg;
+}
+#c4{
+    z-index: 1;
+    background-color: aqua;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#c1:hover{
+    z-index: 4;
+}
+#c2:hover{
+    z-index: 4;
+}
+#c3:hover{
+    z-index: 4;
+}
+#c4:hover{
+    z-index: 4;
+}
